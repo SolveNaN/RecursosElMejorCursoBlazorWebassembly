@@ -1,0 +1,593 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\obj\\Release\\net7.0\\build-gz\\kRDhkWA4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\obj\\Release\\net7.0\\scopedcss\\bundle\\InventarioVentas.Client.styles.css",
+      "PackagePath": "staticwebassets\\InventarioVentas.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\obj\\Release\\net7.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\obj\\Release\\net7.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\portfolio\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\Proyects\\InventarioVentas\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.InventarioVentas.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.InventarioVentas.Client.props",
+      "PackagePath": "build\\InventarioVentas.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.InventarioVentas.Client.props",
+      "PackagePath": "buildMultiTargeting\\InventarioVentas.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.InventarioVentas.Client.props",
+      "PackagePath": "buildTransitive\\InventarioVentas.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

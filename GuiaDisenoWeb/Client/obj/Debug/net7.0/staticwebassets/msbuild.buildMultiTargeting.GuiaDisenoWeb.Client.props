@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GuiaDisenoWeb.Client.props" />
+</Project>

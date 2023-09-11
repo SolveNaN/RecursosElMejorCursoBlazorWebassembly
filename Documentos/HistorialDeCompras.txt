@@ -1,0 +1,297 @@
+Paso a paso
+
+Paso 0. Definir el proyecto que vamos a crear, el cual debe responder a una necesidad:
+
+
+	Crear un software que permita llevar el control de ventas de un establecimientos. 	Debe 	mostrar cuanto el nombre del cliente, el valor del articulo comprado,el 	dinero 	recibido, y el cambio que le queda al clente en caso de pagar con efectivo. 	En caso de 	pagar con transferencia, se debe mostrar el valor de la compra
+
+	Se debe tener un componente que mueste en resumen cuando dinero hay en efectivo, 	cuanto 	en transferencias y el total. Tambien se debe tener el total de los clientes 	atendidos
+
+	En caso de un error se debe poder editar cada registro realiado
+
+Paso 1. Crear proyecto Blazor para webassembly con hospedado https y aplecacion progresiva
+
+
+Paso 2. Tener la plantilla e importarla a nuestro proyecto con los link y script
+
+
+Paso 3. Definir la pagina de inicio y colocar le Encabezado
+
+
+Paso 4. Buscar en bootstrap la tabla que vamos a trabajar y el componente de la platilla que vamos a acomodar
+
+5. Generar el codigo c#
+
+6. configurar los componentes
+
+
+7. A continuacion tiene todo el codigo que va en el Index.razor
+
+@page "/"
+
+<Encabezado />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<EditForm Model="MiVenta">
+    <div class="row">
+        <div class="col-2">
+            <InputText @bind-Value=MiVenta.NombreCliente class="form-control" placeholder="Nombre cliente"></InputText>
+
+        </div>
+        <div class="col-2">
+            <InputNumber @bind-Value=MiVenta.ValorProducto class="form-control" placeholder="Valor del producto"></InputNumber>
+
+        </div>
+        <div class="col-2">
+            <InputNumber @bind-Value=MiVenta.EfectivoRecibido class="form-control" placeholder="Dinero recibido"></InputNumber>
+
+        </div>
+        <div class="col-2">
+            <InputSelect @bind-Value=MiVenta.Transferencia class="form-control">
+                <option value=0>Pago por Efectivo</option>
+                <option value=1>Pago por Transferencia</option>
+            </InputSelect>
+        </div>
+        <div class="col-2">
+            <button type="submit" class="btn btn-success" @onclick="(()=> Guardar(MiVenta))">Guardar</button>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+
+
+</EditForm>
+
+<br />
+<div class="row">
+    <div class="col-8">
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Nombre cliente</th>
+                    <th scope="col">Valor producto</th>
+                    <th scope="col">Cambio</th>
+                    <th scope="col">Tipo Pago</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var v in Ventas)
+                {
+                    
+                    <tr>
+                        <td>@v.Id</td>
+                        <td>@v.Fecha</td>
+                        <td>@v.NombreCliente</td>
+                        <td>@v.ValorProducto</td>
+                        
+                        <td>@v.Cambio</td>
+                        @if (v.Transferencia == 0)
+                        {
+                            <td>Efectivo</td>
+                        }
+                        else
+                        {
+                            <td>Transferencia</td>
+                        }
+                        <td><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" @onclick="(()=> Editar(v))"><i class="bi bi-pen"></i></button> <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalElinar" @onclick="(()=> LamadoAEliminar(v))"><i class="bi bi-trash-fill"></i></button></td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-4">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container">
+                <div class="row" style="display:flex;justify-content:center">
+                    <div class="col-lg-12">
+                        <div class="row" style="display:flex;justify-content:center">
+                            <div class="col-md-12 d-flex align-items-stretch mt-12 mt-lg-0" style="display:flex;justify-content:center">
+                                <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="icon"><i class="bx bx-file"></i></div>
+                                    <h4><a href="">Resumen</a></h4>
+                                    <p>Efectivo Total: @EfectivoTotal</p><br />
+                                    <p>Valor Transferencias: @TotalTransferencias</p><br />
+                                    <p>Dinero Total: @DineroTotal</p><br />
+                                    <p>Numero de ventas: @NumeroDeVentas</p><br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Editar registro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="EditarVenta">
+                    <p>Fecha</p>
+                    <InputDate @bind-Value=EditarVenta.Fecha class="form-control"></InputDate>
+                    <p>Nombre cliente</p>
+                    <InputText @bind-Value=EditarVenta.NombreCliente class="form-control"></InputText>
+                    <p>Valor del producto</p>                    
+                    <InputNumber @bind-Value=EditarVenta.ValorProducto class="form-control"></InputNumber>
+                    <p>Dinero recibido</p>
+                    <InputNumber @bind-Value=EditarVenta.EfectivoRecibido class="form-control"></InputNumber> 
+                    <p>Cambio</p>
+                    <InputNumber @bind-Value=EditarVenta.Cambio class="form-control"></InputNumber>   
+                    <p>Medio de pago</p>
+                    <InputSelect @bind-Value=EditarVenta.Transferencia class="form-control">
+                        <option value="0">Pago por Efectivo</option>
+                        <option value="1">Pago por Transferencia</option>
+                    </InputSelect>
+                </EditForm>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @onclick="(()=> GuardarCambios(EditarVenta))" data-bs-dismiss="modal">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Modal de eliminar-->
+<div class="modal fade" id="exampleModalElinar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Seguro quieres eliminar este registro?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @onclick="(()=> Eliminar(EditarVenta))" data-bs-dismiss="modal">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    public static List<Venta> Ventas = new List<Venta>();
+    Venta MiVenta = new Venta();
+    Venta EditarVenta = new Venta();
+
+    double? EfectivoTotal = 0;
+    double? TotalTransferencias = 0;
+    double? DineroTotal = 0;
+    int NumeroDeVentas = 0;
+
+    void Guardar(Venta miventa)
+    {
+        Venta NuevaVenta = new Venta();
+        NuevaVenta.Id = Ventas.Count() + 1;
+        NuevaVenta.Fecha = miventa.Fecha;
+        NuevaVenta.NombreCliente = miventa.NombreCliente;
+        NuevaVenta.ValorProducto = miventa.ValorProducto;
+        NuevaVenta.Transferencia = miventa.Transferencia;
+        NuevaVenta.EfectivoRecibido = miventa.EfectivoRecibido;
+        NuevaVenta.Cambio = miventa.EfectivoRecibido - miventa.ValorProducto;
+
+        Ventas.Add(NuevaVenta);
+        //Reset espacios
+        MiVenta.Id = 0;
+        MiVenta.Fecha = DateTime.Now;
+        MiVenta.NombreCliente = "";
+        MiVenta.ValorProducto = null;
+        MiVenta.Transferencia = 0;
+        MiVenta.EfectivoRecibido = null;
+
+        CalcularTotales();
+    }
+
+    void Editar(Venta miventa)
+    {
+        EditarVenta.Id = miventa.Id;
+        EditarVenta.Fecha = miventa.Fecha;
+        EditarVenta.NombreCliente = miventa.NombreCliente;
+        EditarVenta.ValorProducto = miventa.ValorProducto;
+        EditarVenta.Transferencia = miventa.Transferencia;
+        EditarVenta.EfectivoRecibido = miventa.EfectivoRecibido;
+        EditarVenta.Cambio = miventa.Cambio;
+
+
+    }
+    void GuardarCambios(Venta miventa)
+    {
+        Venta NuevaVenta = new Venta();
+        NuevaVenta.Id = EditarVenta.Id;
+        NuevaVenta.Fecha = EditarVenta.Fecha;
+        NuevaVenta.NombreCliente = EditarVenta.NombreCliente;
+        NuevaVenta.ValorProducto = EditarVenta.ValorProducto;
+        NuevaVenta.Transferencia = EditarVenta.Transferencia;
+        NuevaVenta.EfectivoRecibido = EditarVenta.EfectivoRecibido;
+        NuevaVenta.Cambio = EditarVenta.Cambio;
+
+        var VentaAEliminar = Ventas.Where(x => x.Id == miventa.Id).FirstOrDefault();
+        Ventas.Remove(VentaAEliminar);
+
+        Ventas.Add(NuevaVenta);
+        Ventas = Ventas.OrderBy(x => x.Id).ToList();
+        CalcularTotales();
+    }
+
+    void LamadoAEliminar(Venta miventa)
+    {
+        EditarVenta = miventa;
+    }
+
+    void Eliminar(Venta miventa)
+    {
+        var VentaAEliminar = Ventas.Where(x => x.Id == miventa.Id).FirstOrDefault();
+        Ventas.Remove(VentaAEliminar);
+        CalcularTotales();
+    }
+
+    void CalcularTotales()
+    {
+        EfectivoTotal = 0;
+        TotalTransferencias = 0;
+        NumeroDeVentas = 0;
+
+        foreach(var v in Ventas)
+        {
+            if (v.Transferencia == 0)
+            {
+                EfectivoTotal = EfectivoTotal + v.ValorProducto;
+            }
+            if (v.Transferencia == 1)
+            {
+                TotalTransferencias = TotalTransferencias + v.ValorProducto;
+            }
+        }
+        DineroTotal = EfectivoTotal + TotalTransferencias;
+        //numero de ventas
+        NumeroDeVentas = Ventas.Count();
+    }
+}
+
