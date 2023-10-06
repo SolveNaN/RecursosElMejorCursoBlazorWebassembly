@@ -1,0 +1,167 @@
+﻿@page "/"
+@inject HttpClient Http
+<Encabezado />
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<EditForm Model="NuevoEmpleado">
+    <InputText @bind-Value=NuevoEmpleado.Nombre placeholder="Nombre trabajador"></InputText>
+    <InputText @bind-Value=NuevoEmpleado.Cargo placeholder="Cargo trabajador"></InputText>
+    <InputNumber @bind-Value=NuevoEmpleado.SalarioBase placeholder="Salario base trabajador"></InputNumber>
+
+    <button @onclick="(()=>CrearEmpleado(NuevoEmpleado))">Crear Empleado</button>
+</EditForm>
+<br />
+
+<table class="table table-success table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Cargo</th>
+            <th scope="col">Salario base</th>
+            <th scope="col">Salud</th>
+            <th scope="col">Pensión</th>
+            <th scope="col">Neto a pagar</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var em in Empleados)
+        {
+            <tr>
+
+                <td>@em.Nombre</td>
+                <td>@em.Cargo</td>
+                <td>@em.SalarioBase</td>
+                <td>@em.Salud()</td>
+                <td>@em.Pension()</td>
+                <td>@em.NetoAPagar()</td>
+                <td>
+                    <button type="button" class="btn btn-success" @onclick="(()=>ActualizarEmpleado(em))" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pen-fill"></i></button>
+                    <button type="button" class="btn btn-warning" @onclick="(()=>EliminarEmpleado(em))" data-bs-toggle="modal" data-bs-target="#ModalEliminar"><i class="bi bi-trash3-fill"></i></button>
+
+                </td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Empleado</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="EditarEmpleado">
+                    
+                    <InputText @bind-Value=EditarEmpleado.Nombre class="form-control"></InputText>
+                    <InputText @bind-Value=EditarEmpleado.Cargo class="form-control"></InputText>
+                    <InputNumber @bind-Value=EditarEmpleado.SalarioBase class="form-control"></InputNumber>
+                    
+                </EditForm>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @onclick="(()=>ConfirmarActualizar(EditarEmpleado))" data-bs-dismiss="modal">Guardar cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="ModalEliminar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Empleado</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="EditarEmpleado">
+                    
+                    <InputText @bind-Value=EditarEmpleado.Nombre class="form-control"></InputText>
+                    <InputText @bind-Value=EditarEmpleado.Cargo class="form-control"></InputText>
+                    <InputNumber @bind-Value=EditarEmpleado.SalarioBase class="form-control"></InputNumber>
+                    
+                </EditForm>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" @onclick="(()=>ConfirmarEliminarEmpleado(ElimiEmpleado.Id))" data-bs-dismiss="modal">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    Empleado NuevoEmpleado = new Empleado();
+    Empleado EditarEmpleado = new Empleado();
+    Empleado ElimiEmpleado = new Empleado();
+
+    public static List<Empleado> Empleados = new List<Empleado>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Empleados = await Http.GetFromJsonAsync<List<Empleado>>("api/Empleado");
+    }
+
+
+    public async Task CrearEmpleado(Empleado miempleado)
+    {
+        var resultado = await Http.PostAsJsonAsync("api/Empleado", miempleado);
+
+        Empleados = await Http.GetFromJsonAsync<List<Empleado>>("api/Empleado");
+
+        NuevoEmpleado.Nombre = null;
+        NuevoEmpleado.Cargo = null;
+        NuevoEmpleado.SalarioBase = null;
+
+    }
+
+    public async Task EliminarEmpleado(Empleado empleado)
+    {
+        ElimiEmpleado = empleado;
+
+    }
+
+
+    public async Task ConfirmarEliminarEmpleado(int id)
+    {
+        var result = await Http.DeleteAsync($"api/Empleado/{id}");
+        Empleados = await Http.GetFromJsonAsync<List<Empleado>>("api/Empleado");
+
+    }
+
+    public async Task ActualizarEmpleado(Empleado miempleado)
+    {
+
+        EditarEmpleado = miempleado;
+       
+    }
+
+
+    public async Task ConfirmarActualizar(Empleado miempleado)
+    {
+
+        EditarEmpleado = miempleado;
+        var result = await Http.PutAsJsonAsync($"api/Empleado/{miempleado.Id}", miempleado);
+    }
+}
+
