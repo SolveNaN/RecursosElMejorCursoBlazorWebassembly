@@ -1,0 +1,120 @@
+﻿@page "/"
+
+
+<!-- POPUP-->
+<div style="position:fixed;width:100%;display:flex;justify-content:center;margin-top:250px">
+    <div style="width:200px;height:150px;background-color:blueviolet;border-radius:5px;display:@popup">
+        <h3>ADVERTENCIA</h3>
+
+    </div>
+</div>
+<!-- Notification POPUP-->
+<div style="position:fixed;width:100%;display:flex;justify-content:flex-end">
+    <div class="alert alert-primary" role="alert" style="display:@alerta;margin-right:50px">
+        Registro creado  <a href="#" class="alert-link"> correctamente</a>. Ingresar un nuevo registro
+    </div>
+</div>
+
+
+
+
+<!-- seccion principal que se va a mostrar-->
+<CallSection />
+
+<!-- seccion de imagenes, al dar clic se abre el modal-->
+<div>
+    <img src="assets/img/portfolio/portfolio-1.jpg" style="max-width:200px" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+    <img src="assets/img/portfolio/portfolio-2.jpg" style="max-width:200px" data-bs-toggle="modal" data-bs-target="#exampleModal2" />
+</div>
+
+<!-- seccion DE BOTONES-->
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Encabezado</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#piedepagina" aria-controls="offcanvasScrolling">Footer</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#formulario" aria-controls="offcanvasExample">
+  Formulario
+</button>
+
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#informacion" aria-controls="offcanvasExample">
+    Info
+</button>
+<button class="btn btn-primary" type="button" @onclick=VerPopup>
+    Ver popup
+</button>
+<button class="btn btn-primary" type="button" @onclick=VerNotificationPopup>
+    Ver alerta
+</button>
+
+<!-- FACEPLATE O OFFCANVAS DEL HEADER-->
+<div class="offcanvas offcanvas-top" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <Encabezado />
+</div>
+
+
+<!-- FACEPLATE O OFFCANVAS DEL FOTER-->
+<div class="offcanvas offcanvas-bottom" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="piedepagina" aria-labelledby="offcanvasScrollingLabel">
+    <FooterCanvas />
+</div>
+
+<!-- FACEPLATE O OFFCANVAS DEL FORMULARIO-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="formulario" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <Formulario />
+  </div>
+</div>
+
+
+<!-- FACEPLATE O OFFCANVAS DEL COMPONENTE DE INFORMACION-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="informacion" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <Informacion />
+    </div>
+</div>
+
+
+
+<!-- Modal de la imagen 1-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+     <img src="assets/img/portfolio/portfolio-1.jpg" style="max-width:600px" />
+    </div>
+  </div>
+</div>
+
+<!-- Modal de la imagen 2, tener cuidado con l id-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <img src="assets/img/portfolio/portfolio-2.jpg" style="max-width:600px" />
+        </div>
+    </div>
+</div>
+
+
+@code{
+    string popup = "none";
+    string alerta = "none";
+
+    async Task VerPopup()
+    {
+        popup = "";
+        await Task.Delay(3000);
+        popup = "none";
+    }
+
+    async Task VerNotificationPopup()
+    {
+        alerta = "";
+        await Task.Delay(3000);
+        alerta = "none";
+    }
+}
