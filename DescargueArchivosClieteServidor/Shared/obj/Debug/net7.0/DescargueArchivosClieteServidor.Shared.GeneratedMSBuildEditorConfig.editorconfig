@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = DescargueArchivosClieteServidor.Shared
-build_property.ProjectDir = C:\Users\Dagoberto\Documents\DescargueArchivosClieteServidor\Shared\
+build_property.ProjectDir = C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\RecursosElMejorCursoBlazorWebassembly\DescargueArchivosClieteServidor\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

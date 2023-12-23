@@ -1,0 +1,12 @@
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\bin\Release\net7.0\DirectorioDeArchivos.Shared.deps.json
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\bin\Release\net7.0\DirectorioDeArchivos.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\bin\Release\net7.0\DirectorioDeArchivos.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.csproj.AssemblyReference.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.AssemblyInfoInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.AssemblyInfo.cs
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\refint\DirectorioDeArchivos.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\DirectorioDeArchivos.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioDeArchivos\Shared\obj\Release\net7.0\ref\DirectorioDeArchivos.Shared.dll

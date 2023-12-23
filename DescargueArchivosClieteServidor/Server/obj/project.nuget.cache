@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GSj2jkJ5/dVKvbmZh+ikC3myDsCgw/E6Ct2buZFVrh7fN1SilSPi0feqRKW/+iBbAR8CIScL9dYZP615KGLMqQ==",
+  "dgSpecHash": "5OIwbJtNwR7kUu8VwGxnCQMl0u+pC0YX321JzDoo3yvVo9x6ut1aodE+cxlSA7QYXB77Ro3t2298DE+vITQZ2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dagoberto\\Documents\\DescargueArchivosClieteServidor\\Server\\DescargueArchivosClieteServidor.Server.csproj",
+  "projectFilePath": "C:\\Users\\Dagoberto\\Documents\\CursoDeBlazorWebassembly_DagoWasm\\RecursosElMejorCursoBlazorWebassembly\\DescargueArchivosClieteServidor\\Server\\DescargueArchivosClieteServidor.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dagoberto\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
     "C:\\Users\\Dagoberto\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.13\\microsoft.aspnetcore.components.7.0.13.nupkg.sha512",
