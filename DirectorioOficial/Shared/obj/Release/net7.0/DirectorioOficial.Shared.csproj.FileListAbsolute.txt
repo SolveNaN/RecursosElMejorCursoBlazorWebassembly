@@ -1,0 +1,14 @@
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\bin\Release\net7.0\DirectorioOficial.Shared.deps.json
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\bin\Release\net7.0\DirectorioOficial.Shared.runtimeconfig.json
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\bin\Release\net7.0\DirectorioOficial.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\bin\Release\net7.0\DirectorioOficial.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.csproj.AssemblyReference.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.AssemblyInfoInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.AssemblyInfo.cs
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\refint\DirectorioOficial.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\DirectorioOficial.Shared.genruntimeconfig.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\DirectorioOficial\Shared\obj\Release\net7.0\ref\DirectorioOficial.Shared.dll
