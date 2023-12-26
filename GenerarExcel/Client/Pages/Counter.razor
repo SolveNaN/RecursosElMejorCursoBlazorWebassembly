@@ -1,0 +1,19 @@
+﻿@page "/counter"
+<PageTitle>Excel por celdas</PageTitle>
+
+@inject HttpClient Http
+@inject IJSRuntime JS
+<button class="btn btn-outline-success" data-toggle="tooltip" title="Exportar" @onclick="(()=> Exportar())">Exportar Registros xlxs</button>
+<br />
+
+@code {
+    private async Task Exportar()
+    {
+        var response = await Http.GetAsync("api/Excel/PorCelda");
+        var fileStream = response.Content.ReadAsStream();
+        using var streamRef = new DotNetStreamReference(stream: fileStream);
+        await JS.InvokeVoidAsync("downloadFileFromStream", "NameExcel.xlsx", streamRef);
+
+    }
+}
+

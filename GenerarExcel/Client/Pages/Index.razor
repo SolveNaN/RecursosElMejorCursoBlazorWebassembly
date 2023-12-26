@@ -1,0 +1,18 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject IJSRuntime JS
+<PageTitle>Use Template</PageTitle>
+<button class="btn btn-outline-success" data-toggle="tooltip" title="Exportar" @onclick="(()=> Exportar3())">Exportar Registros xlxs</button>
+<br />
+
+@code {
+    private async Task Exportar3()
+    {
+        var response = await Http.GetAsync("api/Excel/Template");
+        var fileStream = response.Content.ReadAsStream();
+        using var streamRef = new DotNetStreamReference(stream: fileStream);
+        await JS.InvokeVoidAsync("downloadFileFromStream", "Template.xlsx", streamRef);
+
+    }
+}
+

@@ -1,0 +1,12 @@
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\bin\Debug\net7.0\GenerarExcel.Shared.deps.json
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\bin\Debug\net7.0\GenerarExcel.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\bin\Debug\net7.0\GenerarExcel.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.csproj.AssemblyReference.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.AssemblyInfoInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.AssemblyInfo.cs
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\refint\GenerarExcel.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\GenerarExcel.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GenerarExcel\Shared\obj\Debug\net7.0\ref\GenerarExcel.Shared.dll
