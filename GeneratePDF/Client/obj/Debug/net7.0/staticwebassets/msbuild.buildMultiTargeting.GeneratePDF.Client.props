@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GeneratePDF.Client.props" />
+</Project>

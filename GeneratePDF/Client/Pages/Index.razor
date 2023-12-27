@@ -1,0 +1,29 @@
+﻿@page "/"
+@inject IJSRuntime JS
+<h1>Generate Pdf</h1>
+
+<input type="text" @bind-value=Texto />
+<button class="btn btn-outline-success" data-toggle="tooltip" title="Exportar" @onclick="(()=> export())">Generar PDF</button>
+<p>Ingresar Logo</p>
+<InputFile @ref="inputFile" OnChange="@CargarImg" />
+
+<img style="max-width:400px;max-height:400px" @ref="previewImageElem" />
+@code {
+    string Texto = "";
+
+    private async Task CargarImg()
+    {
+
+        await JS.InvokeVoidAsync("previewImage", inputFile!.Element, previewImageElem);
+
+    }
+
+    async Task export()
+    {
+        await JS.InvokeVoidAsync("GenerarPDF", Texto, inputFile!.Element, previewImageElem);
+    }
+    private InputFile? inputFile;
+    private ElementReference previewImageElem;
+}
+
+

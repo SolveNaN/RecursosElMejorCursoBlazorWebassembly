@@ -1,0 +1,11 @@
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\bin\Debug\net7.0\GeneratePDF.Shared.deps.json
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\bin\Debug\net7.0\GeneratePDF.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\bin\Debug\net7.0\GeneratePDF.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.AssemblyInfoInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.AssemblyInfo.cs
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\refint\GeneratePDF.Shared.dll
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\GeneratePDF.Shared.pdb
+C:\Users\Dagoberto\Documents\CursoDeBlazorWebassembly_DagoWasm\Proyects\GeneratePDF\Shared\obj\Debug\net7.0\ref\GeneratePDF.Shared.dll

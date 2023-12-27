@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>GeneratePDF</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="GeneratePDF.Client.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script>
+        window.GenerarPDF = async (Texto, inputElem, imgElem) => {
+            const doc = new jsPDF();
+
+            //CAMBIAR TIPO DE LETRA
+            doc.setFontSize(25); //Tamaño de letra
+            doc.setFont("courier");//Tipo de letr
+            doc.setFontType("normal");
+            doc.text(50, 30, Texto);
+
+            //recuadro de color
+            doc.setDrawColor(0);
+            doc.setFillColor(35, 200, 75);
+            doc.rect(180, 50, 30, 200, 'F'); // filled red square
+
+            // IMAGEN PASAR A URL
+            const url = URL.createObjectURL(inputElem.files[0]);
+            imgElem.addEventListener('load', () => URL.revokeObjectURL(url), { once: true });
+            imgElem.src = url;
+            //ASIGNAR URL
+
+            var img = new Image;
+            img.src = url;
+            img.crossOrigin = "";  // for demo as we are at different origin than image
+            img.onload = function () {
+                doc.addImage(this, 20, 20, 15, 15);
+                doc.addPage();
+                doc.setFontSize(12); //Tamaño de letra, justo antes del texto
+                doc.text("New Page", 10, 10);
+                //REcuadro con borde
+                doc.setDrawColor(255, 0, 0);
+                doc.rect(40, 22, 150, 10); // empty red square
+                doc.addPage();
+                doc.addImage(this, 20, 20, 15, 15);
+
+                //agreagar texto en nueva hoja
+                doc.setFont("times");
+                doc.setFontType("italic");
+                doc.text(20, 40, 'This is times italic.');
+
+                doc.save("test.pdf");//GRACIAS SEÑOR QUE ESTO FUNCIONA
+            };            
+
+
+        }
+    </script>
+
+    <script>
+        window.previewImage = (inputElem, imgElem) => {
+            const url = URL.createObjectURL(inputElem.files[0]);
+            imgElem.addEventListener('load', () => URL.revokeObjectURL(url), { once: true });
+            imgElem.src = url;
+        }
+    </script>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>
